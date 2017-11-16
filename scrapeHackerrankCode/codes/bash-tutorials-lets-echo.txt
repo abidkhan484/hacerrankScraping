@@ -1,0 +1,4 @@
+# Accepted
+# BASH
+
+echo $'HELLO'

@@ -1,0 +1,70 @@
+# Accepted
+# C++
+
+#include<iostream>
+#include<algorithm>
+#include<vector>
+#include<stdio.h>
+
+using namespace std;
+
+int n,m,c,t;
+int ob[1000000];
+vector <int> v[1000000];
+long long ans,x,y;
+
+void dfs(int x)
+{
+   c++;
+   ob[x]++;
+   for (int i=0;i<v[x].size();i++)
+    if (!ob[v[x][i]])
+     dfs(v[x][i]);
+
+    return ;
+}
+
+void ocisti()
+{
+    for (int i=1;i<=n;i++)
+        {
+            v[i].clear();
+            ob[i]=0;
+        }
+    ans=0;
+
+    return;
+}
+
+int main()
+{
+     cin>>t;
+
+      while(t--)
+       {
+
+        ocisti();
+        scanf("%d%d%lld%lld",&n,&m,&x,&y);
+
+         for (int i=1;i<=m;i++)
+         {
+             int x1,y1;
+             scanf("%d%d",&x1,&y1);
+             v[x1].push_back(y1);
+             v[y1].push_back(x1);
+         }
+
+         for (int i=1;i<=n;i++)
+            if (!ob[i])
+         {
+              c=0;
+              dfs(i);
+              ans+=min(x+(c-1)*y,c*x);
+         }
+
+         printf("%lld\n",ans);
+     }
+ return 0;
+}
+
+

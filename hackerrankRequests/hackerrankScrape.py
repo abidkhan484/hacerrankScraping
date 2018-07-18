@@ -20,11 +20,7 @@ headers = {'Accept': 'application/json, text/javascript, */*; q=0.01',
  'Accept-Encoding': 'gzip, deflate, br',
  'Accept-Language': 'en-US,en;q=0.5',
  'Connection': 'keep-alive',
- 'Content-Length': '146',
  'Content-Type': 'application/json',
- 'Cookie': 'hackerrank_mixpanel_token=e21111d0-8000-4c0f-ab0f-eb333713ddeb; h_r=homepage; h_l=auth_page; h_v=_default; optimizelyEndUserId=oeu1509562110229r0.14782963245182013; optimizelySegments=%7B%221709580323%22%3A%22false%22%2C%221717251348%22%3A%22ff%22%2C%221719390155%22%3A%22direct%22%2C%222308790558%22%3A%22none%22%7D; optimizelyBuckets=%7B%7D; _hp2_id.698647726=%7B%22userId%22%3A%226171316207652378%22%2C%22pageviewId%22%3A%223203629564791777%22%2C%22sessionId%22%3A%225634817498101836%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%223.0%22%7D; __utma=74197771.245294192.1509562114.1510134392.1510148640.11; __utmz=74197771.1509562114.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _biz_uid=cbc34d2f9007453cbc034a1c4fa8601f; _biz_nA=41; _biz_pendingA=%5B%5D; _biz_flagsA=%7B%22Version%22%3A1%2C%22XDomain%22%3A%221%22%7D; mp_mixpanel__c=45; mp_jobs_test__c=45; _hp2_id.undefined=%7B%22userId%22%3A%220248648400270982%22%2C%22pageviewId%22%3A%222119078399066526%22%2C%22sessionId%22%3A%223550959088723861%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%223.0%22%7D; _hp2_ses_props.698647726=%7B%22ts%22%3A1510148638580%2C%22d%22%3A%22www.hackerrank.com%22%2C%22h%22%3A%22%2F%22%7D; __utmb=74197771.8.10.1510148640; __utmc=74197771; __utmt=1; __utmt_%5Bobject%20Object%5D=1; optimizelyPendingLogEvents=%5B%5D; mp_bcb75af88bccc92724ac5fd79271e1ff_mixpanel=%7B%22distinct_id%22%3A%20%22e21111d0-8000-4c0f-ab0f-eb333713ddeb%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; mp_86cf4681911d3ff600208fdc823c5ff5_mixpanel=%7B%22distinct_id%22%3A%20%2215f78ea031413e-08e5dc4e7ea9648-173a7640-100200-15f78ea0315139%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D; _biz_sid=6c9940',
- 'Host': 'metrics.hackerrank.com',
- 'Origin': 'https:www.hackerrank.com',
  'Referer': 'https:www.hackerrank.com/login',
  'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'
                             }
